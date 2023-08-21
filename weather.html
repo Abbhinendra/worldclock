@@ -1,0 +1,98 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="weather.css">
+<link rel="shortcut icon" href="1-removebg-preview.png">
+    <title>WORDCLOCK APP</title>
+  </head>
+  
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="clock.html"><img src="1-removebg-preview.png" width="46px" alt=""> Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="weather.html">Weather<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="stop.html">Stop Watch<span class="sr-only">(current)</span></a>
+              </li><li class="nav-item active">
+                <a class="nav-link" href="world.html">World Map<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact Me<span class="sr-only">(current)</span></a>
+              </li>
+             
+              
+          </ul>
+         
+      </nav>
+      <div class="translator">
+        <button class="nav-link mt-4" href="#" id="google_translate_element"><span class="sr-only">(current)</span></button>
+    </div>
+
+   <main>
+      <div class="container">
+        <div class="header">
+<div class="search-box">
+  <input type="text" name="" class="input box" id="inputBox" placeholder="Enter your location">
+  <button class="fa-solid fa-magnifying-glass" id="search-Btn"></button>
+</div>
+        </div>
+        <div class="location-not-found">
+          <h2>Sorry, Location not found!!!</h2>
+          <img src="error.png" alt="404 error">
+        </div>
+        <div class="weather-body">
+          <img class="weather-img" src="cloud.png" alt="">
+
+          <div class="weather-box">
+            <p class="temperature">0<sub>°C</sub></p>
+            <p class="description">Light Rain</p>
+          </div>
+          <div class="weather-details">
+            <div class="humity"><i class="fa-solid fa-droplet"></i>
+              <div class="text">
+                <span id="humidity">45%</span>
+                <p>humidity</p>
+              </div>
+            </div>
+            <div class="wind"><i class="fa-solid fa-wind"></i>
+              <div class="text">
+                <span id="wind-speed">12Km/H</span>
+                <p>Wind Speed</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+   </main>
+   <header class="mt-4 container-fluid">
+    <h5>Copyright © 2023 Abhi.com</h5> 
+    
+           </header>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/527feac5c0.js" crossorigin="anonymous"></script> 
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+ 
+  </body>
+  <script src="weather.js"></script>
+</html>

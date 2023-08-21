@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #2c3e50;
+}
+::-webkit-scrollbar{
+    width: 1px;
+    height: 1px;
+    border-radius: 26px;
+    background-color:#2c3e50;
+}
+main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#container{
+    color: #d7dfe4;
+}
+.digit{
+    font-size: 120px;
+    font-weight: bold;
+}
+.txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+#btn-container{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+    padding: 7px 20px;
+    font-size: 16px;
+    margin: 0px 10px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+#start{
+background-color: #1abc9c;
+}
+
+#stop{
+
+    background-color: #3498db;
+    
+}
+
+#reset{
+    background-color: #e74c3c;
+}
+
+header{
+    min-height: 10vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(204, 180, 180, 0.347);
+   width: 100%;
+   border-radius: 12px;
+   border: 2px solid rgb(179, 215, 227);
+
+}
+header h5{
+    text-align: center;
+    font-weight: 800;
+}
+@media screen and (max-width: 770px) {
+    
+    .digit{
+        font-size: 80px;
+        font-weight: bold;
+
+    }
+    .txt{
+        font-size: 26px;
+        font-weight: bold;
+    }
+  }
+  @media screen and (max-width: 528px) {
+    
+    .digit{
+        font-size:38px;
+        font-weight: bold;
+
+    }
+    .txt{
+        font-size: 20px;
+        font-weight: bold;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    
+    .digit{
+        font-size:38px;
+        font-weight: bold;
+
+    }
+    .txt{
+        font-size: 20px;
+        font-weight: bold;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    
+    .digit{
+        font-size:30px;
+        font-weight: bold;
+
+    }
+    .txt{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .btn{
+        padding: 4px 16px;
+        font-size: 12px;
+        margin: 0px 8px;
+        border: 0px;
+        cursor: pointer;
+    }
+  }
+  @media screen and (max-width: 240px) {
+
+    .digit{
+        font-size:26px;
+        font-weight: bold;
+
+    }
+    .txt{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .btn{
+        padding: 2px 10px;
+        font-size: 9px;
+        margin: 0px 6px;
+        border: 0px;
+        cursor: pointer;
+    }
+  }
+  .translator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.translator button{
+    border: 2px solid lightblue;
+    border-radius: 16px;
+}
